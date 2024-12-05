@@ -1,0 +1,36 @@
+/*@media(min-width: 600px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        background-color: red;
+        color: white;
+    }
+}
+
+
+
+
+
+@media (orientation: landscape){
+    h1{
+        font-size: 28px;
+    }
+}
+
+@media (orientation: portrait){
+    h1{
+        font-size: 10px;
+    }
+}*/
+
+
+@media(min-width:600px) and (max-width:800){
+    img{
+        display: none;
+    }
+}
